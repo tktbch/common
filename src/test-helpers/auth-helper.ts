@@ -1,13 +1,14 @@
 import jwt from "jsonwebtoken";
 
+const defaultPayload = {
+    id: 'abc123def',
+    email: 'test@test.com'
+};
+
 export class AuthHelper {
 
-    static signin = (): string[] => {
-        // Build JWT payload. { id, email }
-        const payload = {
-            id: 'abc123def',
-            email: 'test@test.com'
-        };
+    static signin = (payload = defaultPayload): string[] => {
+
         // Create the JWT
         const token = jwt.sign(payload, process.env.JWT_KEY!);
         // Build Session Object { jwt: MY_JWT }
