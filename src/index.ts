@@ -1,3 +1,4 @@
-export * from './errors/index';
-export * from './middlewares/index';
-export * from './test-helpers/index';
+export * from './errors';
+export * from './middlewares';
+export * from './test-helpers';
+export * from './events'
