@@ -9,3 +9,6 @@ export * from './subjects';
 export * from './tickets/ticket-created-event';
 export * from './tickets/ticket-updated-event';
 
+// Orders
+export * from './orders/order-created-event';
+export * from './orders/order-cancelled-event';
