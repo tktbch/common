@@ -15,3 +15,6 @@ export * from './orders/order-cancelled-event';
 
 // Expiration
 export * from './expiration/expiration-complete-event';
+
+// Payments
+export * from './payments/payment-created-event';
