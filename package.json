@@ -1,5 +1,5 @@
 {
-  "name": "@tktbitch/common",
+  "name": "@tktbch/common",
   "version": "1.0.12",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
